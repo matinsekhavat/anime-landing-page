@@ -1,9 +1,15 @@
-# Build Modern Next 14 Server Side App with Server Actions, Infinite Scroll & Framer Motion Animations
+### Anime landing Page with Most practical features such as
 
-![Anime Website](https://i.ibb.co/MG1nbqt/YT-Thumbnails-2.png)
+1.  intersection-observer API
+2.  infinite Scroll
+3.  Server Actions in Next.js(14)
+4.  the Framer Motion
+5.  ...
 
-### [🌟 Become a top 1% Next.js 14 developer in only one course](https://jsmastery.pro/next14)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
-### [📙 Free Three.js Cheatsheet](https://resource.jsmastery.pro/threejs-cheatsheet)
-### [🌐 Best Hosting for Your Websites](https://hostinger.com/javascript10)
+---
 
+idea of this project is for adrianHajdin and the ui is already completed.
+
+##### if ui is Complete what i am doing in this Project?
+
+here im gonna to implement Logic that i talked in previous part
