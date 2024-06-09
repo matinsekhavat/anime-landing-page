@@ -13,3 +13,6 @@ idea of this project is for adrianHajdin and the ui is already completed.
 ##### if ui is Complete what i am doing in this Project?
 
 here im gonna to implement Logic that i talked in previous part
+focus of this project is not for Ui - all about is Logic.
+
+` All the Ui is handle by adrianhajdin i only practice to implement the logic and features in this project so all the copyright is for adrianhajdin`
