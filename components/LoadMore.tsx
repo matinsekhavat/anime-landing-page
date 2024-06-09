@@ -6,10 +6,10 @@ import { useInView } from "react-intersection-observer";
 import AnimeCard, { AnimeProp } from "./AnimeCard";
 
 let PAGE = 2;
-
+export type AnimeCard = JSX.Element;
 function LoadMore() {
   const { ref, inView } = useInView();
-  const [animes, setAnimes] = useState<AnimeProp[]>([]);
+  const [animes, setAnimes] = useState<AnimeCard[]>([]);
   useEffect(() => {
     if (inView) {
       fetchAnime(PAGE)
@@ -29,9 +29,7 @@ function LoadMore() {
   return (
     <>
       <section className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
-        {animes.map((item: AnimeProp, index: number) => (
-          <AnimeCard key={crypto.randomUUID()} anime={item} index={index} />
-        ))}
+        {animes}
       </section>
       <section className="flex justify-center items-center w-full">
         <div ref={ref}>
